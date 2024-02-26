@@ -72,37 +72,52 @@
         <dd>black hot drink</dd>
         <dt>Milk</dt>
         <dd>-white cold drink</dd>
-     </dl> -->
-     
-<form action="Html form">
+     </dl> 
+     <form action="Html form">
     <h4>HTML FORM:</h4>
+    <fieldset>
+      <legend align="center">Contact Info</legend>    
     <label for="username">username:</label>
-    <input type="text" placeholder="write your email address" id="username" minlength="6" maxlength="16" required> <br>
+    <input type="text" placeholder="write your email address" id="username" minlength="6" maxlength="16" required> <br> <br>
     <label for="password">password:</label>
-    <input type="password" name="" id="password"  minlength="6" maxlength="16" required><br>
+    <input type="password" name="" id="password"  minlength="6" maxlength="16" required><br> <br>
     <label for="email">email:</label>
-    <input type="email" name="" id="email"><br>
+    <input type="email" name="" id="email"><br> <br>
     <label for="Phone number">phone number:</label>
-    <input type="tel" id="phone"><br>
+    <input type="tel" id="phone"><br> <br>
     <label for="bday">birthdate:</label>
-    <input type="date" name="" id="bday"><br>
+    <input type="date" name="" id="bday"><br> <br>
     <label for="gender">gender:</label>
     <label for="male">male</label>
     <input type="radio" name="gender" id="male">
     <label for="female">female</label>
     <input type="radio" name="gender" id="female">
     <label for="other">other</label>
-    <input type="radio" name="gender" id="other"><br>
+    <input type="radio" name="gender" id="other"><br> <br>
     <label for="select language">select language:</label>
     <select name="" id="select language"> 
         <option value="english">english</option> 
         <option value="bangla">bangla</option>
         <option value="hindi">hindi</option>
 
-    </select><br>
-    <input type="Reset"><br>
+    </select><br> <br>
+        <input list="fbrowser" placeholder="Select your favourite browser">
+    <datalist id="fbrowser">
+    <option value="Firebox"></option>
+    <option value="Chrome"></option>  
+    <option value="Edge"></option>    
+    </datalist>
+    <br><br>
+    <label for="">Favourite colour: <input type="colour" name="" id=""></label> <br><br>
+    <label for="">Upload your Cv/Resume</label>
+    <input type="file" name="" id="">
+    
+    <label for="">Comment <br><br><textarea name="text" id="" cols="60" rows="5"></textarea></label><br>
+   </fieldset> <br>
+    <input type="Reset">
     <input type="Submit">
 </form>
+
 
 
 </body>
